@@ -5,9 +5,8 @@ import os
 OUT = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 JOKE = (
-    "The office plants are the only ones thriving here \u2014 they get watered "
-    "once a week, never attend standup, and nobody has ever asked them for a "
-    "status update."
+    "The office plants are the only ones thriving here \u2014 watered once a "
+    "week, no standup, and nobody has ever asked them for a status update."
 )
 
 assert 1 <= len(JOKE) <= 200, f"joke is {len(JOKE)} chars, must be 1-200"
